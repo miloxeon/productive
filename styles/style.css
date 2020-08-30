@@ -1,0 +1,52 @@
+:root {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 160px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: calc(4vw + 7px);
+}
+
+q {
+    font-size: calc(8vw + 8px);
+    white-space: pre-wrap;
+}
+
+a {
+    color: gray;
+}
+
+a:focus {
+    transform: scale(1.1);
+    outline: none;
+    color: black;
+}
+
+footer {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 20px;
+}
+
+button {
+    all: unset;
+    border: none;
+    background: none;
+    padding: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
+
+button:focus {
+    transform: scale(1.1);
+    color: black;
+}
